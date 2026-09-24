@@ -93,7 +93,7 @@ def accept_legacy_redirect():
 
 @app.route("/news")
 def news():
-    return render_template("stub.html")
+    return render_template("news.html")
 
 @app.route("/leaderboards")
 def leaderboards():
